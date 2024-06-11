@@ -126,8 +126,8 @@ const getPokemon = async () => {
         y: undefined
       };
       window.addEventListener("mousemove", event => {
-        this.mouse.x = event.clientX;
-        this.mouse.y = event.clientY;
+        this.mouse.x = event.x-190;
+        this.mouse.y = event.y-250;
       });
     }
   
